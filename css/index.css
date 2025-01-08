@@ -1,0 +1,52 @@
+.header__nav-img {
+  width: 105px;
+  height: 86px;
+}
+.navbar {
+  background-color: #d7cf7d;
+}
+.main__section-title {
+  height: 545px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main__section-articleInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.main__section-img {
+  width: 300px;
+  height: 180px;
+  rotate: 45deg;
+  opacity: 0.5;
+}
+.main__section-articleButton {
+  width: 380px;
+  height: 70px;
+  border: solid 1px #1d2f6a;
+  box-shadow: 10px 8px 4px #1d2f6a;
+  color: #1d2f6a;
+  font-weight: 500;
+  font-size: 24px;
+}
+.main__section-slider {
+  background-color: #1a1a23;
+  height: 550px;
+}
+.main__section-carousel {
+  position: relative;
+  top: 50px;
+}
+.custom-card-height {
+  max-width: 300px;
+  min-height: 200px;
+  flex-shrink: 0;
+}
+.card-img-top{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    padding-top: 10px;
+}

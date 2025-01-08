@@ -1,0 +1,53 @@
+{
+    "productosDestacados": [
+      {
+        "id": 1,
+        "nombre": "Cama Premium para Gatos",
+        "descripcion": "Cama acolchada y cómoda para gatos",
+        "precioOriginal": 50.00,
+        "precioOferta": 35.00,
+        "imagen": "../assets/cama_premium_gatos.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Rascador Multiusos Deluxe",
+        "descripcion": "Rascador con múltiples niveles y juguetes integrados.",
+        "precioOriginal": 80.00,
+        "precioOferta": 55.00,
+        "imagen": "../assets/rascador_deluxe.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Fuente de Agua Automática",
+        "descripcion": "Fuente de agua fresca para mantener a tu gato hidratado todo el día.",
+        "precioOriginal": 45.00,
+        "precioOferta": 30.00,
+        "imagen": "../assets/fuente_agua.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Juguete Interactivo con Plumas",
+        "descripcion": "Juguete automático que estimula el instinto de caza de tu gato.",
+        "precioOriginal": 25.00,
+        "precioOferta": 15.00,
+        "imagen": "../assets/juguete_plumas.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Arena Ecológica Biodegradable",
+        "descripcion": "Arena de alta absorción y control de olores",
+        "precioOriginal": 20.00,
+        "precioOferta": 12.00,
+        "imagen": "../assets/arena_biodegradable.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Comedero Inteligente",
+        "descripcion": "Comedero automático con temporizador",
+        "precioOriginal": 90.00,
+        "precioOferta": 65.00,
+        "imagen": "../assets/comedero_inteligente.jpg"
+      }
+    ]
+  }
+  
