@@ -3,7 +3,7 @@
       {
         "id": 1,
         "nombre": "Cama Premium para Gatos",
-        "descripcion": "Cama acolchada y cómoda para gatos",
+        "descripcion": "Cama acolchada y cómoda para gatos.",
         "precioOriginal": 50.00,
         "precioOferta": 35.00,
         "imagen": "../assets/cama_premium_gatos.jpg"
@@ -26,7 +26,7 @@
       },
       {
         "id": 4,
-        "nombre": "Juguete Interactivo con Plumas",
+        "nombre": "Juguete con Plumas",
         "descripcion": "Juguete automático que estimula el instinto de caza de tu gato.",
         "precioOriginal": 25.00,
         "precioOferta": 15.00,
@@ -34,8 +34,8 @@
       },
       {
         "id": 5,
-        "nombre": "Arena Ecológica Biodegradable",
-        "descripcion": "Arena de alta absorción y control de olores",
+        "nombre": "Arena Biodegradable",
+        "descripcion": "Arena de alta absorción y control de olores.",
         "precioOriginal": 20.00,
         "precioOferta": 12.00,
         "imagen": "../assets/arena_biodegradable.jpg"
@@ -43,7 +43,7 @@
       {
         "id": 6,
         "nombre": "Comedero Inteligente",
-        "descripcion": "Comedero automático con temporizador",
+        "descripcion": "Comedero automático con temporizador.",
         "precioOriginal": 90.00,
         "precioOferta": 65.00,
         "imagen": "../assets/comedero_inteligente.jpg"
