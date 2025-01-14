@@ -48,6 +48,272 @@
         "precioOferta": 65.00,
         "imagen": "../assets/comedero_inteligente.jpg"
       }
+    ],
+    "allProducts": [
+      {
+        "id": 7,
+        "nombre": "Cama Suave para Gatos",
+        "descripcion": "Cama extra acolchada con diseño ergonómico.",
+        "precioOriginal": 40.00,
+        "imagen": "../assets/products/cama_suave_gatos.jpg",
+        "tipo": "cama"
+      },
+      {
+        "id": 8,
+        "nombre": "Rascador Compacto",
+        "descripcion": "Rascador pequeño ideal para espacios reducidos.",
+        "precioOriginal": 25.00,
+        "imagen": "../assets/products/rascador_compacto.jpg",
+        "tipo": "rascador"
+      },
+      {
+        "id": 9,
+        "nombre": "Dispensador de Agua",
+        "descripcion": "Dispensador de agua con filtro purificador.",
+        "precioOriginal": 35.00,
+        "imagen": "../assets/products/dispensador_agua.jpg",
+        "tipo": "bebedero"
+      },
+      {
+        "id": 10,
+        "nombre": "Caja de Arena Cerrada",
+        "descripcion": "Caja de arena con diseño cerrado para mayor privacidad.",
+        "precioOriginal": 50.00,
+        "imagen": "../assets/products/caja_arena_cerrada.jpg",
+        "tipo": "arena"
+      },
+      {
+        "id": 11,
+        "nombre": "Comedero Antideslizante",
+        "descripcion": "Comedero con base antideslizante y diseño elegante.",
+        "precioOriginal": 15.00,
+        "imagen": "../assets/products/comedero_antideslizante.jpg",
+        "tipo": "comedero"
+      },
+      {
+        "id": 12,
+        "nombre": "Cama Cueva para Gatos",
+        "descripcion": "Cama en forma de cueva para mayor confort y privacidad.",
+        "precioOriginal": 45.00,
+        "imagen": "../assets/products/cama_cueva.jpg",
+        "tipo": "cama"
+      },
+      {
+        "id": 13,
+        "nombre": "Rascador Árbol",
+        "descripcion": "Rascador con varios niveles y plataformas.",
+        "precioOriginal": 60.00,
+        "imagen": "../assets/products/rascador_arbol.jpg",
+        "tipo": "rascador"
+      },
+      {
+        "id": 14,
+        "nombre": "Fuente Bebedero Premium",
+        "descripcion": "Fuente con diseño moderno y silencioso.",
+        "precioOriginal": 55.00,
+        "imagen": "../assets/products/fuente_bebedero_premium.jpg",
+        "tipo": "bebedero"
+      },
+      {
+        "id": 15,
+        "nombre": "Pelota con Sonido",
+        "descripcion": "Pelota que emite sonidos para atraer la atención de tu gato.",
+        "precioOriginal": 10.00,
+        "imagen": "../assets/products/pelota_sonido.jpg",
+        "tipo": "juguete"
+      },
+      {
+        "id": 16,
+        "nombre": "Arena Ecológica para Gatos",
+        "descripcion": "Arena biodegradable con alta absorción.",
+        "precioOriginal": 18.00,
+        "imagen": "../assets/products/arena_ecologica.jpg",
+        "tipo": "arena"
+      },
+      {
+        "id": 17,
+        "nombre": "Comedero Inteligente WiFi",
+        "descripcion": "Comedero automático controlado por app móvil.",
+        "precioOriginal": 120.00,
+        "imagen": "../assets/products/comedero_wifi.jpg",
+        "tipo": "comedero"
+      },
+      {
+        "id": 18,
+        "nombre": "Cama para Gatos de Lujo",
+        "descripcion": "Cama con diseño sofisticado y materiales de alta calidad.",
+        "precioOriginal": 70.00,
+        "imagen": "../assets/products/cama_lujo.jpg",
+        "tipo": "cama"
+      },
+      {
+        "id": 19,
+        "nombre": "Rascador con Escondite",
+        "descripcion": "Rascador con escondite integrado para mayor diversión.",
+        "precioOriginal": 25.00,
+        "imagen": "../assets/products/rascador_escondite.jpg",
+        "tipo": "rascador"
+      },
+      {
+        "id": 20,
+        "nombre": "Bebedero con Sensor",
+        "descripcion": "Bebedero que se activa al detectar movimiento.",
+        "precioOriginal": 65.00,
+        "imagen": "../assets/products/bebedero_sensor.jpg",
+        "tipo": "bebedero"
+      },
+      {
+        "id": 21,
+        "nombre": "Juguete Interactivo Inteligente",
+        "descripcion": "Juguete que se mueve automáticamente para entretener a tu gato.",
+        "precioOriginal": 35.00,
+        "imagen": "../assets/products/juguete_interactivo.jpg",
+        "tipo": "juguete"
+      },
+      {
+        "id": 22,
+        "nombre": "Caja de Arena Autolimpiable",
+        "descripcion": "Caja de arena con sistema de autolimpieza.",
+        "precioOriginal": 100.00,
+        "imagen": "../assets/products/caja_arena_autolimpiable.jpg",
+        "tipo": "arena"
+      },
+      {
+        "id": 23,
+        "nombre": "Cama con Calefacción",
+        "descripcion": "Cama que proporciona calor para mayor confort en días fríos.",
+        "precioOriginal": 80.00,
+        "imagen": "../assets/products/cama_calefaccion.jpg",
+        "tipo": "cama"
+      },
+      {
+        "id": 24,
+        "nombre": "Rascador Minimalista",
+        "descripcion": "Rascador con diseño simple y elegante.",
+        "precioOriginal": 30.00,
+        "imagen": "../assets/products/rascador_minimalista.jpg",
+        "tipo": "rascador"
+      },
+      {
+        "id": 25,
+        "nombre": "Juguete con Hierba Gatera",
+        "descripcion": "Juguete relleno con hierba gatera para mayor diversión.",
+        "precioOriginal": 12.00,
+        "imagen": "../assets/products/juguete_hierba_gatera.jpg",
+        "tipo": "juguete"
+      },
+      {
+        "id": 26,
+        "nombre": "Bebedero Portátil",
+        "descripcion": "Bebedero compacto y fácil de transportar.",
+        "precioOriginal": 20.00,
+        "imagen": "../assets/products/bebedero_portatil.jpg",
+        "tipo": "bebedero"
+      },
+      {
+        "id": 27,
+        "nombre": "Cama Moderna para Gatos",
+        "descripcion": "Cama con diseño moderno y cojines removibles.",
+        "precioOriginal": 65.00,
+        "imagen": "../assets/products/cama_moderna.jpg",
+        "tipo": "cama"
+      },
+      {
+        "id": 28,
+        "nombre": "Rascador de Esquina",
+        "descripcion": "Rascador diseñado para esquinas, ahorra espacio.",
+        "precioOriginal": 25.00,
+        "imagen": "../assets/products/rascador_esquina.jpg",
+        "tipo": "rascador"
+      },
+      {
+        "id": 29,
+        "nombre": "Juguete con Luz LED",
+        "descripcion": "Juguete interactivo que emite luces LED.",
+        "precioOriginal": 22.00,
+        "imagen": "../assets/products/juguete_luz_led.jpg",
+        "tipo": "juguete"
+      },
+      {
+        "id": 30,
+        "nombre": "Caja de Arena Moderna",
+        "descripcion": "Caja de arena con diseño innovador y elegante.",
+        "precioOriginal": 85.00,
+        "imagen": "../assets/products/caja_arena_moderna.jpg",
+        "tipo": "arena"
+      },
+      {
+        "id": 31,
+        "nombre": "Comedero con Cámara",
+        "descripcion": "Comedero con cámara integrada para monitorear a tu gato.",
+        "precioOriginal": 150.00,
+        "imagen": "../assets/products/comedero_camara.jpg",
+        "tipo": "comedero"
+      },
+      {
+        "id": 32,
+        "nombre": "Rascador de Pared",
+        "descripcion": "Rascador que se monta en la pared para mayor funcionalidad.",
+        "precioOriginal": 40.00,
+        "imagen": "../assets/products/rascador_pared.jpg",
+        "tipo": "rascador"
+      },
+      {
+        "id": 33,
+        "nombre": "Cama Grande para Gatos",
+        "descripcion": "Cama amplia y cómoda, ideal para gatos grandes.",
+        "precioOriginal": 55.00,
+        "imagen": "../assets/products/cama_grande.jpg",
+        "tipo": "cama"
+      },
+      {
+        "id": 34,
+        "nombre": "Juguete Automático Giratorio",
+        "descripcion": "Juguete que gira automáticamente para atraer a tu gato.",
+        "precioOriginal": 30.00,
+        "imagen": "../assets/products/juguete_automatico.jpg",
+        "tipo": "juguete"
+      },
+      {
+        "id": 35,
+        "nombre": "Bebedero con Purificador",
+        "descripcion": "Bebedero con sistema de purificación avanzado.",
+        "precioOriginal": 70.00,
+        "imagen": "../assets/products/bebedero_purificador.jpg",
+        "tipo": "bebedero"
+      },
+      {
+        "id": 36,
+        "nombre": "Arena Premium para Gatos",
+        "descripcion": "Arena de máxima calidad con control avanzado de olores.",
+        "precioOriginal": 30.00,
+        "imagen": "../assets/products/arena_premium.jpg",
+        "tipo": "arena"
+      },
+      {
+        "id": 37,
+        "nombre": "Cama para Ventana",
+        "descripcion": "Cama que se adhiere a la ventana para mayor vista.",
+        "precioOriginal": 50.00,
+        "imagen": "../assets/products/cama_ventana.jpg",
+        "tipo": "cama"
+      },
+      {
+        "id": 38,
+        "nombre": "Comedero Doble",
+        "descripcion": "Comedero con doble espacio para comida y agua.",
+        "precioOriginal": 25.00,
+        "imagen": "../assets/products/comedero_doble.jpg",
+        "tipo": "comedero"
+      },
+      {
+        "id": 39,
+        "nombre": "Rascador Colgante",
+        "descripcion": "Rascador que se puede colgar en puertas o paredes.",
+        "precioOriginal": 20.00,
+        "imagen": "../assets/products/rascador_colgante.jpg",
+        "tipo": "rascador"
+      }
     ]
   }
   

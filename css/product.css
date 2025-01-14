@@ -1,0 +1,119 @@
+.main__banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.main__banner img {
+  height: auto;
+  margin-top: 80px;
+}
+
+.main__banner p {
+  position: absolute;
+  top: 50%;
+  height: 60px;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #3c3434;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 984px;
+}
+.main__catalog {
+  background-color: #1a1a23;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__catalog-search {
+  display: flex;
+  justify-content: end;
+  padding-top: 170px;
+  margin-left: 60px;
+}
+.main__catalog-searchInput {
+  width: 600px;
+  border-radius: 8px 0px 0px 8px;
+  padding: 5px;
+}
+.main__catalog-filters {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  gap: 30px;
+}
+.main__catalog-searchIcon {
+  background-color: #bd8b8b;
+}
+.main__catalog-products {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80vw;
+  margin-top: 50px;
+}
+.main__catalog-listgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+.list__card {
+  list-style: none;
+  background-color: #fafafa;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.list__card-img {
+  width: 150px;
+  height: 170px;
+  align-self: center;
+}
+.list__card-counter {
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  width: 120px;
+  border-radius: 50px;
+}
+.list_card-counterMinus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 30px;
+  border: 1px solid #fafafa;
+  line-height: normal;
+}
+.list_card-counterText {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  height: 40px;
+}
+.list_card-counterPlus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid #fafafa;
+  background-color: #468cbe;
+  line-height: normal;
+}
+.list__card-counter svg {
+    width: 18px;
+    height: 18px;
+}

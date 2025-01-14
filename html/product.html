@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All for Cats</title>
+    <link rel="icon" href="../assets/favicon.ico" type="image/favicon-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid ">
+                <a class="navbar-brand col col-lg-9" href="#"><img src="../assets/All_for_Cats__1_nobg-recorte.png"
+                        alt="all-for-cats-logo" class="header__nav-img"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link fs-4" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 active" href="./product.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main__banner">
+            <img src="../assets/banner-product.png" alt="cat-banner-discount">
+            <p>Usa nuestro cupón HummiPumpi15 para obtener un descuento de hasta el 15%</p>
+        </section>
+        <section class="main__catalog">
+            <div class="main__catalog-search">
+                <input type="text" name="search" id="search" placeholder="Busca tus productos favoritos" class="main__catalog-searchInput">
+                <img src="../assets/icons/search.png" alt="search-icon" class="main__catalog-searchIcon">
+            </div>
+            <div class="main__catalog-products">
+                <section class="main__catalog-filters">
+                    <div><input type="checkbox" value="bebedero" name="bebedero" id="bebedero"><label for="bebedero">Bebederos</label></div>
+                    <div><input type="checkbox" value="arena" name="arena" id="arena"><label for="arena">Arenas</label></div>
+                    <div><input type="checkbox" value="juguete" name="juguete" id="juguete"><label for="juguete">Juguetes</label></div>
+                    <div><input type="checkbox" value="cama" name="cama" id="cama"><label for="cama">Camas</label></div>
+                    <div><input type="checkbox" value="rascador" name="rascador" id="rascador"><label for="rascador">Rascadores</label>     </div>    
+                </section>
+                <section class="main__catalog-list">
+                </section>
+            </div>           
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__section-rrss">
+            <a href="https://www.instagram.com/"><img src="../assets/icons/instagram-icon.png" alt="instagram-icon"></a>
+            <a href="tel:+34928123456"><img src="../assets/icons/phone-icon.png" alt="phone-icon"></a>
+            <a href="mailto:allforcats@gmail.com"><img src="../assets/icons/email-icon.png" alt="email-icon"></a>
+        </section>
+        <section class="footer__section-info">
+            <div>
+                <p>Instagram: allforCatsLPA</p>
+                <p>Teléfono: 928123456</p>
+                <p>E-mail: allforcats@gmail.com</p>
+            </div>
+            <div>
+                <p>Dirección: CC Las Arenas, planta baja</p>
+                <p>Horario apertura: L-S de 10:00h a 21:00h</p>
+            </div>
+        </section>
+
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../javascript/product.js"></script>
+</body>
+
+</html>

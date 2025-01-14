@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <p class="card-text"><strong>$${producto.precioOferta.toFixed(2)}</strong></p>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     `;
@@ -47,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 ${tarjeta2 ? generateCardHTML(tarjeta2) : ""}
                                 ${tarjeta3 ? generateCardHTML(tarjeta3) : ""}
                             </div>
+                        <button>eo</button>
                         </div>
                     `;
                 }
