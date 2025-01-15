@@ -38,6 +38,10 @@
                             <a class="nav-link fs-4" href="#">Contacto</a>
                         </li>
                     </ul>
+                    <div class="header__cart">
+                        <img src="../assets/icons/cart-icon.svg" alt="cart-icon" class="header__cart-icon">
+                        <span class="header__cart-count">0</span>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -49,20 +53,30 @@
         </section>
         <section class="main__catalog">
             <div class="main__catalog-search">
-                <input type="text" name="search" id="search" placeholder="Busca tus productos favoritos" class="main__catalog-searchInput">
+                <input type="text" name="search" id="search" placeholder="Busca tus productos favoritos"
+                    class="main__catalog-searchInput">
                 <img src="../assets/icons/search.png" alt="search-icon" class="main__catalog-searchIcon">
             </div>
             <div class="main__catalog-products">
                 <section class="main__catalog-filters">
-                    <div><input type="checkbox" value="bebedero" name="bebedero" id="bebedero"><label for="bebedero">Bebederos</label></div>
-                    <div><input type="checkbox" value="arena" name="arena" id="arena"><label for="arena">Arenas</label></div>
-                    <div><input type="checkbox" value="juguete" name="juguete" id="juguete"><label for="juguete">Juguetes</label></div>
+                    <div><input type="checkbox" value="bebedero" name="bebedero" id="bebedero"><label
+                            for="bebedero">Bebederos</label></div>
+                    <div><input type="checkbox" value="arena" name="arena" id="arena"><label for="arena">Arenas</label>
+                    </div>
+                    <div><input type="checkbox" value="juguete" name="juguete" id="juguete"><label
+                            for="juguete">Juguetes</label></div>
                     <div><input type="checkbox" value="cama" name="cama" id="cama"><label for="cama">Camas</label></div>
-                    <div><input type="checkbox" value="rascador" name="rascador" id="rascador"><label for="rascador">Rascadores</label>     </div>    
+                    <div><input type="checkbox" value="rascador" name="rascador" id="rascador"><label
+                            for="rascador">Rascadores</label> </div>
                 </section>
-                <section class="main__catalog-list">
+                <section class="main__catalog-container">
+                    <div class="main__catalog-results"></div>
+                    <section class="main__catalog-list">
+
+                    </section>
+                    <div class="main__catalog-controls"></div>
                 </section>
-            </div>           
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -84,7 +98,7 @@
         </section>
 
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../javascript/product.js"></script>
 </body>
