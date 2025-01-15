@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
                                 ${tarjeta2 ? generateCardHTML(tarjeta2) : ""}
                                 ${tarjeta3 ? generateCardHTML(tarjeta3) : ""}
                             </div>
-                        <button>eo</button>
                         </div>
                     `;
                 }
