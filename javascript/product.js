@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const cartCountElement = document.querySelector(".header__cart-count");
   let cartItems = [];
 
-  fetch("./products.json")
+  fetch("../products.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Error al cargar los productos");
